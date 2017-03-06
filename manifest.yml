@@ -1,0 +1,9 @@
+applications:
+- path: target/TomcatHelloWorldApp.war
+  memory: 256M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: SelfInformation
+  host: SelfInformation
+  disk_quota: 1024M
+  buildpack: java_buildpack
